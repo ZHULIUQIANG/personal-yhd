@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" href="css/register.css">
+		<meta charset="utf-8"/>
+		
+	</head>	
+	<body>
+		<div id="header">
+				<img src="images/logo.png">
+				<img src="images/yhd.png">
+				<p>
+					您好！欢迎光临一号店
+					<a href="login.html">请登录</a>
+					<a href="#">
+						<i></i>
+						帮助中心
+						<b></b>
+					</a>
+				</p>
+		</div>
+		<div id="cate_box">
+			<ul>
+				<li>
+					<h2>1号店注册</h2>
+				</li>
+				<li>
+					<input id="uname" type="text" placeholder="用户名" /><br/>
+					<span class="vali_Info1"></span>
+				</li>
+				<li>
+					<input id="phone" type="text" placeholder="手机号" /><br/>
+					<span class="vali_Info2"></span>
+				</li>
+				<li  class="yanzheng">
+					<input  type="text" placeholder="短信验证码" />
+					<button id="btn">获取验证码</button><br/>
+				</li>
+				<li >
+					<input id="upwd" placeholder="设置密码" /><br/>
+					<span class="vali_Info3"></span>
+				</li>
+				<li>
+					<input  id="upwd2" type="text" placeholder="确认密码" /><br/>
+					<span class="vali_Info4"></span>
+				</li>
+				<li>
+					<p>点击注册，表示您同意1号店
+						<a href="#">《服务协议》</a>
+					</p>
+				</li>
+				<li class="register">
+					<input id="btn2" type="button" value="同意协议并注册" >
+				</li>
+			</ul>
+		</div>
+		<div id="footer">
+			<p>沪ICP备13044178号|合字B1.B2-2013004|营业执照</p>
+			<p>Copyright@1号店网上超市2007-2016，All Rights Reserved</p>
+		</div>
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/register.js"></script>
+	</body>
+</html>

@@ -1,0 +1,87 @@
+#header{
+	width:100%;
+	margin:100px;
+	color:#ddd;
+	}
+#header p{
+	float:right;
+	font-size:12px;
+	margin-right:150px;
+	}
+#header p a{
+	color:#105BC6;
+	margin-left:10px;
+	text-decoration:none;
+	}
+#header p a:last-child{
+	color:#000;
+	margin-left:20px;
+	}
+#header p a i{
+	display:inline-block;
+	width:16px;
+	height:16px;
+	background:url(../images/index_sprite.png) no-repeat -285px -51px;
+	position:relative;
+	top:5px;
+	}
+#header p a b{
+	display:inline-block;
+	width:13px;
+	height:13px;
+	background:url(../images/index_sprite.png) no-repeat -220px 0;
+	position:relative;
+	top:3px;
+	}
+#cate_box ul{
+	text-align:center;
+	list-style:none;
+	}
+#cate_box ul li input{
+	width:300px;
+	height:20px;
+	font-size:12px;
+	margin:5px;
+	padding:10px;
+	border:1px solid #E1E1E1;
+	}
+#upwd input{
+	width:300px;
+	}
+#cate_box ul li.yanzheng input{
+	width:187px;
+	}
+#btn{
+	margin:5px;
+	margin-right:8px;
+	width:98px;
+	height:42px;
+	background:gray;
+	color:#fff;
+	}
+#cate_box ul li p{
+	width:300px;
+	font-size:12px;
+	margin:10px auto;
+	padding-right:80px;
+	}
+#cate_box ul li.register input{
+	color:#fff;
+	background:#e4393c;
+	width:330px;
+	height:45px;
+	line-height:45px;
+	font-size:18px;
+	padding:2px;
+	}
+#footer{
+	margin-top:40px;
+	text-align:center;
+	font-size:13px;
+	}
+
+.vali_Info1,.vali_Info2,.vali_Info3,.vali_Info4{
+	opacity: 0;
+	font-size: 15px;
+	color:#e4393c;
+	}

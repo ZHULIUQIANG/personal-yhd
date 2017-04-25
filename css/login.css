@@ -1,0 +1,146 @@
+header{
+    width:100%;
+    margin:150px 100px;
+    color:#ddd;
+    padding:5px 50px;
+}
+header p{
+    float:right;
+    font-size:12px;
+    margin-right:150px;
+}
+header p a{
+    color:#105BC6;
+    margin-left:10px;
+    text-decoration:none;
+}
+header p a:last-child{
+    color:#000;
+    margin-left:20px;
+}
+header p a i{
+    display:inline-block;
+    width:16px;
+    height:16px;
+    background:url(../images/index_sprite.png) no-repeat -285px -51px;
+    position:relative;
+    top:5px;
+}
+header p a b{
+    display:inline-block;
+    width:13px;
+    height:13px;
+    background:url(../images/index_sprite.png) no-repeat -220px 0;
+    position:relative;
+    top:3px;
+}
+section{
+    width:900px;
+    height:400px;
+    margin:10px auto;
+    color:#AAA4A4;
+}
+section p{
+    float:left;
+}
+section ul{
+    list-style:none;
+    float:left;
+}
+section ul li{
+    width:350px;
+    height:40px;
+    line-height:40px;
+    margin:10px 0;
+    position:relative;
+}
+section ul li:first-child a{
+    float:right;
+    text-decoration:none;
+    color:#045ED1;
+    font-size:12px;
+}
+section ul li input{
+    width:350px;
+    height:35px;
+    line-height:35px;
+    color:#AAA4A4;
+}
+section ul li.user b{
+    display:inline-block;
+    width:16px;
+    height:18px;
+    background:url(../images/indexhead_sprite.png) no-repeat -284px -900px;
+    position:absolute;
+    top:10px;
+    left:5px;
+
+}
+section ul li.user input{
+    padding-left:30px;
+    width:310px;
+}
+section ul li.mima b{
+    display:inline-block;
+    width:20px;
+    height:23px;
+    background:url(../images/yhd_02.png) no-repeat;
+    position:absolute;
+    top:10px;
+    left:5px;
+}
+section ul li.mima input{
+    padding-left:30px;
+    width:310px;
+}
+section ul li.denglu input{
+    width:13px;
+    height:13px;
+}
+
+section ul li.denglu a{
+    float:right;
+    font-size:12px;
+    text-decoration:none;
+    color:#aaa;
+}
+section ul li.zhanghao{
+    color:#595959;
+    font-size:12px;
+}
+section ul li button{
+    background:#e4393c;
+    color:#fff;
+    width:350px;
+    height:50px;
+    line-height:40px;
+    font-size:20px;
+    border:0;
+}
+section ul li.hezuo p{
+    float:right;
+    font-size:12px;
+    margin-top:-3px;
+}
+section ul li.hezuo p b{
+    display:inline-block;
+    width:14px;
+    height:14px;
+    background:url(../images/index_sprite.png) no-repeat -222px 0;
+    margin-left:3px;
+}
+footer{
+    margin:20px auto;
+    text-align:center;
+    font-size:12px;
+}
+#btn a{
+    color:#fff;
+    text-decoration:none;
+    display:block;
+}
+.vali_Info1,.vali_Info2{
+    opacity: 0;
+    font-size: 15px;
+    color:#e4393c;
+}

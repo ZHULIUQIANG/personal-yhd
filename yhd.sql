@@ -1,0 +1,12 @@
+SET NAMES UTF8;
+DROP DATABASE IF EXISTS yhd;
+CREATE DATABASE yhd CHARSET=UTF8;
+USE yhd;
+CREATE TABLE yhd_user(
+    uid INT PRIMARY KEY AUTO_INCREMENT,
+    uname VARCHAR(32),
+    upwd VARCHAR(32)
+);
+INSERT INTO yhd_user VALUES
+(1,'liuqiang','930302'),
+(2,'mengmeng','930819');
